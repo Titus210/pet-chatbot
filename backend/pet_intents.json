@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello"],
+      "responses": ["Hello! How can I assist you with your pet today?", "Hi there! How can I help you and your pet?", "Hey! What can I do for you and your furry friend?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Feel free to come back anytime if you have more questions.", "See you later! Take care of your pet.", "Bye! Remember, I'm here to help with your pet anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome! If you need anything else, just let me know.", "No problem! Happy to help.", "Glad I could assist you!"]
+    },
+    {
+      "tag": "ask_behavior",
+      "patterns": ["How can I train my pet?", "My pet has behavior issues, what should I do?", "Can you help with pet training?"],
+      "responses": ["Training your pet requires consistency and positive reinforcement. What specific behavior are you working on?", "I can provide tips for training your pet. What behavior would you like to address?", "Training your pet is important! Let's talk about what you're struggling with."]
+    },
+    {
+      "tag": "ask_feeding",
+      "patterns": ["What should I feed my pet?", "How much should I feed my pet?", "Can you recommend pet food?"],
+      "responses": ["Feeding your pet a balanced diet is crucial. What type of pet do you have? I can offer specific recommendations.", "The right diet is key to your pet's health. Let's discuss your pet's dietary needs.", "Every pet has different nutritional needs. Let's find the best food for your furry friend."]
+    },
+    {
+      "tag": "ask_health",
+      "patterns": ["How do I keep my pet healthy?", "What vaccinations does my pet need?", "How often should I take my pet to the vet?"],
+      "responses": ["Regular vet check-ups are important for your pet's health. When was your pet's last visit?", "Keeping your pet healthy involves regular exercise and veterinary care. Let's create a health plan for your pet.", "Preventive care is key! Let's discuss your pet's health needs and any concerns you have."]
+    },
+    {
+      "tag": "ask_socialization",
+      "patterns": ["How can I socialize my pet?", "My pet is shy around other animals, what should I do?", "Can you help with pet socialization?"],
+      "responses": ["Socialization is important for your pet's well-being. Let's talk about how to introduce your pet to new experiences.", "Helping your pet become comfortable around others takes time and patience. Let's work on socialization together.", "I can provide tips for socializing your pet. What specific challenges are you facing?"]
+    },
+    {
+      "tag": "ask_exercise",
+      "patterns": ["How much exercise does my pet need?", "What are some good exercises for my pet?", "My pet is overweight, how can I help?"],
+      "responses": ["Exercise is essential for your pet's physical and mental health. Let's discuss an exercise plan tailored to your pet's needs.", "There are many fun ways to exercise with your pet! Let's explore some options.", "Helping your pet maintain a healthy weight involves both diet and exercise. Let's create a fitness routine for your furry friend."]
+    },
+    {
+      "tag": "ask_grooming",
+      "patterns": ["How often should I groom my pet?", "What grooming tools do I need?", "My pet doesn't like grooming, what should I do?"],
+      "responses": ["Grooming keeps your pet's coat healthy and reduces shedding. Let's discuss a grooming schedule that works for you and your pet.", "The right grooming tools can make the process easier for both you and your pet. Let's talk about what you'll need.", "Some pets are hesitant about grooming at first. Let's explore techniques to make it a positive experience for your furry friend."]
+    },
+    {
+      "tag": "ask_environment",
+      "patterns": ["How can I create a pet-friendly environment?", "What temperature is best for my pet?", "What should I include in my pet's habitat?"],
+      "responses": ["Creating a safe and comfortable environment is important for your pet's well-being. Let's discuss how to set up the perfect space for your furry friend.", "The right temperature and surroundings are crucial for your pet's health. Let's ensure your pet's habitat is ideal.", "Every pet has unique environmental needs. Let's tailor your pet's living space to suit their preferences."]
+    },
+    {
+      "tag": "ask_training",
+      "patterns": ["What are some fun tricks I can teach my pet?", "How do I house train my pet?", "Can you recommend training resources?"],
+      "responses": ["Training can be a fun bonding experience for you and your pet! Let's explore some tricks you can teach.", "House training requires patience and consistency. Let's create a plan to help your pet learn.", "There are many resources available to help you train your pet. Let's find the right approach for you."]
+    },
+    {
+      "tag": "ask_travelling",
+      "patterns": ["How can I travel safely with my pet?", "What should I pack for my pet when traveling?", "My pet gets anxious during car rides, what should I do?"],
+      "responses": ["Traveling with your pet can be enjoyable with the right preparation. Let's discuss how to make the journey safe and comfortable.", "Packing the essentials is key when traveling with your pet. Let's create a checklist together.", "Some pets experience anxiety during car rides. Let's explore techniques to help your pet feel more at ease."]
+    },
+    {
+      "tag": "ask_adoption",
+      "patterns": ["How do I adopt a pet?", "Where can I find pets for adoption?", "What should I consider before adopting a pet?"],
+      "responses": ["Adopting a pet is a wonderful decision! Let's discuss the process and what to consider.", "There are many shelters and rescue organizations where you can find pets for adoption. Let's find the right fit for you.", "Before adopting a pet, it's important to consider factors such as your lifestyle and the pet's needs. Let's explore these together."]
+    },
+    {
+      "tag": "ask_insurance",
+      "patterns": ["Is pet insurance necessary?", "What does pet insurance cover?", "How do I choose the right pet insurance?"],
+      "responses": ["Pet insurance can provide peace of mind in case of unexpected veterinary expenses. Let's discuss its importance and what options are available.", "Pet insurance coverage varies, so it's important to understand what's included. Let's go over the details together.", "Choosing the right pet insurance involves considering factors like coverage, cost, and your pet's specific needs. Let's explore your options."]
+    },
+    {
+      "tag": "ask_behavior_problems",
+      "patterns": ["My pet is displaying aggressive behavior, what should I do?", "How do I address my pet's separation anxiety?", "What should I do if my pet is chewing on furniture?"],
+      "responses": ["Addressing behavior problems requires understanding the root cause. Let's discuss strategies to modify your pet's behavior.", "Behavior problems can be challenging, but with patience and consistency, we can work through them together. Let's start by identifying the triggers.", "Redirecting your pet's behavior and providing appropriate outlets for their energy can help address common behavior problems. Let's create a plan tailored to your pet."]
+    },
+    {
+      "tag": "ask_first_aid",
+      "patterns": ["What should I do in case of a pet emergency?", "How do I perform CPR on my pet?", "Do you have tips for creating a pet first aid kit?"],
+      "responses": ["Knowing basic pet first aid can be life-saving. Let's discuss essential techniques and how to create a first aid kit.", "In an emergency, staying calm and knowing what to do can make a big difference. Let's review some first aid procedures for common pet emergencies.", "Having a pet first aid kit ready can help you respond quickly in case of an emergency. Let's put together a list of essential items for your kit."]
+    },
+    {
+      "tag": "ask_aging_care",
+      "patterns": ["How do I care for my aging pet?", "What are common health issues in senior pets?", "How can I make my home more comfortable for my senior pet?"],
+      "responses": ["Caring for an aging pet involves special considerations. Let's discuss how to provide the best possible care for your senior companion.", "As pets age, they may experience specific health issues. Let's talk about how to manage these and keep your pet comfortable.", "Making adjustments to your home can help accommodate your senior pet's needs. Let's explore ways to create a comfortable environment."]
+    }
+  ]
+}
+
